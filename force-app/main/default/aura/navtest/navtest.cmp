@@ -1,0 +1,4 @@
+<aura:component implements="lightning:isUrlAddressable">
+    <lightning:navigation aura:id="navService"/>
+    <lightning:button label="Do it" onclick="{!c.myAction}" />
+</aura:component>	

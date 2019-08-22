@@ -1,0 +1,6 @@
+<aura:component implements="force:lightningQuickAction,lightning:isUrlAddressable">
+
+    <c:Child aura:id="childComponent"/>
+
+    <lightning:button label="Navigate" onclick="{!c.doNavigate}"/>
+</aura:component>	

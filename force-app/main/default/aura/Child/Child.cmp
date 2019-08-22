@@ -1,0 +1,14 @@
+<!--
+  child component containing the lightning:navigatgion
+-->
+
+<aura:component>
+     
+    <aura:method name="navigate" action="{!c.doNavigate}">
+        <aura:attribute name="url" type="String"/> 
+    </aura:method>
+
+     <!-- navigation service    -->
+    <lightning:navigation aura:id="navigationService"/>
+
+</aura:component>	
